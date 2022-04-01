@@ -1,0 +1,22 @@
+{
+  "name": "qmister/load-balancer",
+  "description": "A load balancer library",
+  "license": "MIT",
+  "keywords": [
+    "php",
+    "load-balancer"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Qmister\\LoadBalancer\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Qmister\\LoadBalancer\\Test\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6|^7|^8|^9"
+  }
+}
